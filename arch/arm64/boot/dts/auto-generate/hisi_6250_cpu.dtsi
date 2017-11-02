@@ -15,6 +15,7 @@
 			cpu-idle-states = <&CPU_SLEEP_0 &CLUSTER_SLEEP_0>;
 			operating-points = <
 				480000	700000
+				600000  750000
 				807000	800000
 				1306000	900000
 				1709000	1000000
@@ -30,6 +31,7 @@
 			cpu-idle-states = <&CPU_SLEEP_0 &CLUSTER_SLEEP_0>;
 			operating-points = <
 				480000	700000
+				600000  750000
 				807000	800000
 				1306000	900000
 				1709000	1000000
@@ -45,6 +47,7 @@
 			cpu-idle-states = <&CPU_SLEEP_0 &CLUSTER_SLEEP_0>;
 			operating-points = <
 				480000	700000
+				600000  750000
 				807000	800000
 				1306000	900000
 				1709000	1000000
@@ -60,6 +63,7 @@
 			cpu-idle-states = <&CPU_SLEEP_0 &CLUSTER_SLEEP_0>;
 			operating-points = <
 				480000	700000
+				600000  750000
 				807000	800000
 				1306000	900000
 				1709000	1000000
@@ -76,6 +80,7 @@
 			enable-method = "psci";
 			operating-points = <
 				1402000	800000
+				1604000 850000
 				1805000	900000
 				2016000	1000000
 				2112000	1000000
@@ -92,6 +97,7 @@
 			enable-method = "psci";
 			operating-points = <
 				1402000	800000
+				1604000 850000
 				1805000	900000
 				2016000	1000000
 				2112000	1000000
@@ -108,6 +114,7 @@
 			cpu-idle-states = <&CPU_SLEEP_0 &CLUSTER_SLEEP_1>;
 			operating-points = <
 				1402000	800000
+				1604000 850000
 				1805000	900000
 				2016000	1000000
 				2112000	1000000
@@ -124,6 +131,7 @@
 			enable-method = "psci";
 			operating-points = <
 				1402000	800000
+				1604000 850000
 				1805000	900000
 				2016000	1000000
 				2112000	1000000
