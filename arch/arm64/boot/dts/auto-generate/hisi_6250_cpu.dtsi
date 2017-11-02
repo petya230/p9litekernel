@@ -196,7 +196,7 @@
 
 	support-target {
 		compatible = "hisi,supportedtarget";
-		support_name = "Kirin 650","Kirin 655";
+		support_name = "Kirin 650","Kirin 650";
 		support_value = <2362000>, <2362000>;
 		support_efuse = "false";
 	};
