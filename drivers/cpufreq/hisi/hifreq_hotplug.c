@@ -35,7 +35,7 @@
 #include <trace/events/hifreq_hotplug.h>
 
 #define BIG_CLUSTER	1
-#define THRESHOLD_FREQ		2112000
+#define THRESHOLD_FREQ		2304000
 #define REAL_FREQ_INDEX_ADDR	0xFFF0A41CUL
 
 static struct task_struct *hotplug_task;
